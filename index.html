@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="NeoBank App"
+    />
+    <title>NeoBank</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Rubik:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <h2 className="logo__title">
+                        NeoBank
+                    </h2>
+                </a>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#creditcard">
+                                Credit card
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#product">
+                                Product
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#account">
+                                Account
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#resources">
+                                Resources
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="menu__btn">
+                    Online Bank
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="cards">
+        <div class="container">
+            <div class="cards__inner">
+                <div class="cards__column">
+                    <h2 class="cards__title">
+                        Choose the design you like <br/>
+                        and apply for card right <br/> 
+                        now
+                    </h2>
+                    <button class="cards__btn">
+                        Choose the card
+                    </button>
+                </div>
+                <img class="cards__img" src="img/cards.png" alt="Credit cards-img" />
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="features__inner">
+                <img class="features__img" src="img/man.png" alt="man-img" />
+                <div class="features__column">
+                    <h2 class="features__title">
+                        We Provide Many Features You Can Use
+                    </h2>
+                    <p class="features__text">
+                        You can explore the features that we 
+                        provide with fun and have their own 
+                        functions each feature
+                    </p>
+                    <ul class="features__list">
+                        <li class="features__list-item">
+                            <img class="features__list-img" src="img/mark.png" alt="mark-img"/>
+                            <span class="features__list-text">Powerfull online protection.</span>
+                        </li>
+                        <li class="features__list-item">
+                            <img class="features__list-img" src="img/mark.png" alt="mark-img"/>
+                            <span class="features__list-text">Cashback without borders.</span>
+                        </li>
+                        <li class="features__list-item">
+                            <img class="features__list-img" src="img/mark.png" alt="mark-img"/>
+                            <span class="features__list-text">Personal design</span>
+                        </li>
+                        <li class="features__list-item">
+                            <img class="features__list-img" src="img/mark.png" alt="mark-img"/>
+                            <span class="features__list-text">Work anywhere in the world</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exchange">
+        <div class="container">
+            <div class="exchange__inner">
+                <div class="exchange__head">
+                    <h2 class="exchange__head-title">
+                        Exchange rate in internet bank
+                    </h2>
+                    <p class="exchange__head-subtitle">
+                        Update every 15 minutes, MSC 09.08.2022
+                    </p>
+                </div>
+                <div class="exchange__column">
+                    <h3 class="exchange__column-header">
+                        Currency
+                    </h3>
+                    <div class="exchange__column-content">
+                        <div class="exchange__column-table">
+                            <ul class="exchange__column-list">
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">USD:</h4>
+                                    <p class="exchange__column-text">60.78</p>
+                                </li>
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">CNY:</h4>
+                                    <p class="exchange__column-text">9.08</p>
+                                </li>
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">CHF:</h4>
+                                    <p class="exchange__column-text">64.78</p>
+                                </li>
+                            </ul>
+                            <ul class="exchange__column-list">
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">USD:</h4>
+                                    <p class="exchange__column-text">60.78</p>
+                                </li>
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">JPY:</h4>
+                                    <p class="exchange__column-text">0.46</p>
+                                </li>
+                                <li class="exchange__column-item">
+                                    <h4 class="exchange__column-title">TRY:</h4>
+                                    <p class="exchange__column-text">3.39</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="exchange__column-img" src="img/building.png" alt="building-img"/>
+                    </div>
+                </div>
+                <p class="exchange__text">
+                    All courses
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__inner">
+                <h2 class="services__title">
+                    You can use our services anywhere in the world
+                </h2>
+                <p class="services__subtitle">
+                    Withdraw and transfer money online through our application
+                </p>
+                <img class="services__img" src="img/map.png" alt="map-img" />
+            </div>
+        </div>
+    </section>     
+    <section class="support">
+        <div class="container">
+            <div class="support__inner">
+                <h2 class="support__title">
+                    Support
+                </h2>
+                <p class="support__subtitle">
+                    Subscribe Newsletter & get
+                </p>
+                <p class="support__text">
+                    Bank News
+                </p>
+                <div class="support__form">
+                    <img class="support__input-img" src="img/email.svg" alt="telegram-img"/>
+                    <input class="support__input" placeholder="Your email" type="email" /> 
+                    <button class="support__btn" type="submit">
+                        <div class="support__btn-container">
+                            <img class="support__btn-img" src="img/telegram.png" alt="telegram-img"/>
+                            <span class="support__btn-text">Subscribe</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>           
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <figure>
+                        <img class="footer__contacts-img" src="img/logo.png" alt='logo' />
+                    </figure>
+                    <address>
+                        <div class="footer__contacts-list">
+                            <h4 class="footer__contacts-mobile">
+                                <a href="tel:+74959842513">
+                                    +7 (495) 984 25 13
+                                </a>  
+                            </h4>
+                            <p class="footer__contacts-mail">
+                                <a href="mailto:info@neoflex.ru">  
+                                    info@neoflex.ru
+                                </a>  
+                            </p>
+                        </div>
+                    </address>
+                </div>
+                <div class="footer__about">
+                    <ul class="footer__about-list">
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#aboutbank">  
+                                About bank
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#askaquestion">  
+                                Ask a Question
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#qualityofservice">  
+                                Quality of service
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#requisites">  
+                                Requisites
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#presscenter">  
+                                Press center
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#bankcareer">  
+                                Bank career
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#investors">  
+                                Investors
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#analytics">  
+                                Analytics
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#business">  
+                                Business and processes
+                            </a> 
+                        </li>
+                        <li class="footer__about-item">
+                            <a class="footer__about-link" href="#compliance">  
+                                Compliance and business ethics
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+                <span class="footer-line"></span>
+                <p class="footer__description">
+                    We use cookies to personalize our services and improve 
+                    the user experience of our website. Cookies are small 
+                    files containing information about previous visits to a website. 
+                    If you do not want to use cookies, please change your browser settings
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
