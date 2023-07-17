@@ -1,0 +1,20 @@
+{
+  "name": "neobank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastyaVok/NeoBank_module1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NastyaVok/NeoBank_module1/issues"
+  },
+  "homepage": "https://github.com/NastyaVok/NeoBank_module1#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "sass": "^1.63.6"
+  }
+}
