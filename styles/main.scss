@@ -175,7 +175,7 @@ address {
 .cards__btn {
     color: $white;
     font-size: $fs-small;
-    line-height: 17.92px;
+    line-height: 112%;
     letter-spacing: 0.32px;
     font-weight: 700;
     background-color: $blue;
@@ -184,9 +184,8 @@ address {
     padding: 16px;
 
     &:hover {
-        color: $blue;
-        background-color: $white;
-        border: 1px solid $blue;
+        background-color: #7796C0;
+        border: 1px solid #7796C0;
         transition: $t-small;
         cursor: pointer;
     }
