@@ -135,7 +135,7 @@ address {
 .cards__btn {
   color: #fff;
   font-size: 16px;
-  line-height: 17.92px;
+  line-height: 112%;
   letter-spacing: 0.32px;
   font-weight: 700;
   background-color: #003CFF;
@@ -145,9 +145,8 @@ address {
 }
 .menu__btn:hover,
 .cards__btn:hover {
-  color: #003CFF;
-  background-color: #fff;
-  border: 1px solid #003CFF;
+  background-color: #7796C0;
+  border: 1px solid #7796C0;
   transition: 0.4s;
   cursor: pointer;
 }
